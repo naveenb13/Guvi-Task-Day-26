@@ -23,6 +23,7 @@ function App() {
             <Routes>
               <Route path="/" element= {<Login />} />
               <Route path="/portal" element={<Portal />}>
+              <Route path="" element={<Dashboard />} />
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="users" element={<Users />} />
               <Route path="users/:id" element= {<Userview />} />

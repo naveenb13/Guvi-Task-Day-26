@@ -1,5 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import Dashboard from './Dashboard'
 import Sidebar from './Sidebar'
 import Topbar from './Topbar'
 
